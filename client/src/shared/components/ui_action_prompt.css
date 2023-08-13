@@ -1,0 +1,14 @@
+.uiactionprompt {
+  background-color: gold;
+  color: #333333;
+  text-align: center;
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  z-index: 500;
+}
+
+.uiactionpromptbutton {
+  padding: 0px 10px;
+  margin-left: 10px;
+}

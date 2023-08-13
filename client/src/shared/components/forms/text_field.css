@@ -1,0 +1,17 @@
+.textform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.textform input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.textform textarea {
+  width: 100%;
+  height: 100px;
+}

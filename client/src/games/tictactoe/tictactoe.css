@@ -1,0 +1,36 @@
+/* Room */
+.tictactoeroomcontainer {
+  /*
+    Games generally have the option of using grid or flex.
+    Grid is not mobile friendly but works better than flex for desktop
+    for larger games.
+  */
+  display: flex;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tictactoeboard-row {
+  display: flex;
+  justify-content: center;
+}
+
+.tictactoesquarecontainer {
+  border: 1px solid #999;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  color: #333;
+}
+
+.tictactoesquare {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}

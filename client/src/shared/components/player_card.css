@@ -1,0 +1,14 @@
+.playercard {
+  width: 160px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.playername {
+  font-weight: bold;
+}
+
+.playercard.playeractive {
+  background-color: gold;
+  color: #333333;
+}

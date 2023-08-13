@@ -1,0 +1,3 @@
+.animatednumber {
+  transition: color 1s, font-weight 1s;
+}

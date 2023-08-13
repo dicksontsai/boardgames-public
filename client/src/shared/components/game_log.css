@@ -1,0 +1,39 @@
+.logtable {
+  margin: 0px 10px;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.logheading {
+  text-align: center;
+}
+
+.logtimestamp {
+  vertical-align: top;
+}
+
+.logplayername {
+  vertical-align: top;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.logentry.endturn:first-child {
+  background-color: lightgray;
+  color: #333333;
+}
+
+.logentry.startturn:first-child {
+  background-color: gold;
+  color: #333333;
+}
+
+.logentry.startround {
+  background-color: lightskyblue;
+  color: #333333;
+}
+
+.logentry.wongame {
+  background-color: gold;
+  color: #333333;
+}

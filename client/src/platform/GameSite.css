@@ -1,0 +1,67 @@
+.pregame,
+.gameroom {
+  border-radius: 3px;
+  margin: 10px 0px;
+  max-width: 800px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pregame h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.pregame h2 {
+  text-align: center;
+}
+
+.pregame .caption {
+  text-align: center;
+}
+
+.pregame .player-list {
+  list-style-type: none;
+  padding: 20px 30px;
+}
+
+.pregame .checkbox {
+  margin-right: 10px;
+}
+
+.pregame .enterContainer {
+  position: relative;
+  display: block;
+  width: 275px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.pregame .enterContainer input {
+  float: right;
+  line-height: 18px;
+}
+
+.pregame #error-message {
+  height: 15px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ff0000;
+}
+
+.gameroomgame {
+  align-items: center;
+  /* So the footer doesn't feel so close at the start of the game */
+  min-height: 500px;
+}
+
+.gameSiteFooter {
+  margin: 50px 10px;
+  /* Padding needs to be large for bullets and numbered lists to be visible. */
+  padding: 50px;
+  border-radius: 3px;
+}

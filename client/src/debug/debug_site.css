@@ -1,0 +1,42 @@
+.debugsiteFirstRow {
+  display: flex;
+  align-items: center;
+}
+
+.debugsite form {
+  display: flex;
+  align-items: center;
+}
+
+.debugsite form * {
+  margin: 10px;
+}
+
+.debugsiteUiActionInputLabel {
+  width: 200px;
+}
+
+.debugsiteUiActionInput {
+  width: 500px;
+  height: 100px;
+}
+
+.debugsite table,
+.debugsite th,
+.debugsite td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.debugsite td {
+  padding: 5px;
+}
+
+.debugsite pre {
+  white-space: pre-wrap;
+}
+
+.debugsiteSendUiAction {
+  padding: 50px;
+  background-color: #7fbf57;
+}

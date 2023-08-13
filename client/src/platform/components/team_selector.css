@@ -1,0 +1,43 @@
+.teamselector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.teamselectorTeams {
+  display: flex;
+  flex-direction: row;
+}
+
+.teamselectorTeam {
+  margin: 10px;
+}
+
+.teamselectorJoin {
+  box-sizing: border-box;
+  padding: 4px;
+  margin: 5px;
+  float: left;
+  font-size: 16px;
+  color: white;
+}
+
+.teamselectorJoin.Red {
+  background: #b32728;
+}
+
+.teamselectorJoin.Blue {
+  background: #11779f;
+}
+
+.teamselectorRoster {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.teamselectorRosterName {
+  margin: 5px 0px;
+}

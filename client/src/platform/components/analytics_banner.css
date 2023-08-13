@@ -1,0 +1,20 @@
+.analyticsBannerMsg {
+  margin: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #11779f;
+  padding: 10px;
+  color: white;
+}
+
+.analyticsBannerAccept {
+  background-color: #7fbf57;
+  padding: 10px;
+  margin: 10px;
+}
+
+.analyticsBannerDecline {
+  background-color: #bf7f57;
+  padding: 10px;
+  margin: 10px;
+}
